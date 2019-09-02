@@ -1,0 +1,13 @@
+.post-preview {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+
+    a {
+        @include transition-all;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

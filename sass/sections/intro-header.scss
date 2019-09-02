@@ -1,0 +1,32 @@
+.intro-header {
+    width: 100%;
+    min-height: 450px;
+    max-height: 768px;
+
+    .site-heading,
+    .page-heading,
+    .post-heading {
+        width: 100%;
+        max-width: map-get($container-max-widths, xl );
+        height: auto;
+        min-height: 450px;
+        @include flex-display;
+
+        h1 {
+            color: #ffffff;
+        }
+
+        h2 {
+            color: #f5f5f5;
+        }
+
+        // single post
+        .meta {
+            color: #f4f4f4;
+        }
+
+        .subheading {
+            color: #f5f5f5;
+        }
+    }
+}

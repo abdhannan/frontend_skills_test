@@ -1,0 +1,11 @@
+footer {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    @include flex-display;
+
+    .copyright {
+        margin-top: 20px;
+        text-align: center;
+    }
+}

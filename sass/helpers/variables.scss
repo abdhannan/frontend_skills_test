@@ -1,5 +1,17 @@
 // Variables
 
+
+// Container width (Feel free to change as you want)
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+
+
+
 $brand-primary: #0085A1;
 $gray-dark: lighten(black, 25%);
 $gray: lighten(black, 50%);
